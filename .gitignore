@@ -34,8 +34,6 @@ build/
 
 # PlatformIO
 .pio/
-lib/
-libdeps/
 
 # Windows
 Thumbs.db
