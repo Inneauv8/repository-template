@@ -1,32 +1,90 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# C/C++ compiled output
 *.o
+*.out
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# CMake
+CMakeLists.txt.user
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+CMakeDoxygenDefaults.sed
+cmake_install.cmake
+install_manifest.txt
+CMakeUserPresets/
+CMakeTools/
+CTestTestfile.cmake
+Makefile
+build/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Visual Studio Code
+.vscode/
+.settings.json
 
-# Executables
-*.exe
-*.out
-*.app
+# Xcode
+.xcodeproj/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+
+# PlatformIO
+.pio/
+lib/
+libdeps/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Clion
+.idea/
+
+# Compiled Python files
+__pycache__/
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Compiled Java files
+*.class
+
+# Compiled Ruby files
+*.gem
+
+# Compiled Perl files
+*.bs
+
+# Compiled C# files
+*.suo
+*.user
+*.sln.docstates
+
+# Compiled VB.NET files
+*.suo
+*.user
+*.sln.docstates
+
+# Compiled F# files
+*.suo
+*.user
+*.sln.docstates
+
+# Visual Studio
+.vs2019/
+.vs2017/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
