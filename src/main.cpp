@@ -1,20 +1,22 @@
 /**************************************************************************************************
-Nom du fichier : main.c
-Auteur : 
-Date de création : 
+Nom du fichier : main.cpp
+Auteur : Mathieu Durand
+Date de création : 2023/10/16
 
-Description : 
+Description : Fichier principale Arduino
               
 Notes : 
 
-Modifications : -Ceci est un exemple de modifications - Samuel Hamelin - 2023-10-16
+Modifications : 
 
 ***************************************************************************************************/
 
 // *************************************************************************************************
 //  INCLUDES
 // *************************************************************************************************	
-/* VIDE */
+
+#include <Arduino.h>
+#include <LibRobus.h>
 
 // *************************************************************************************************
 //  CONSTANTES
@@ -35,49 +37,25 @@ Modifications : -Ceci est un exemple de modifications - Samuel Hamelin - 2023-10
 // VARIABLES GLOBALES
 // *************************************************************************************************
 /* VIDE */
-			
-// *************************************************************************************************
-void main (void)
-//
-//  Auteur:  
-//
-//  Description             : Appelé lorsque le programme démarre
-//  Paramètres d'entrées 	: Aucun
-//  Paramètres de sortie 	: Aucun
-//  Notes     		 		: Aucune
-//
-// *************************************************************************************************
-{
-  /********  Variables locales **********/
-  /* VIDE */
-      
-  /****************************************/  
-  /**********  Initialisations ************/
-  /* VIDE */
-      
-  /****************************************/
-				
-//Programme principal.	    
-  while (1) 
-  {    
-  
-  }
+
+/**
+ * @brief Initialisation du programme.
+ * @author Mathieu Durand
+ */
+void setup()
+{   
+    BoardInit();
+    Serial.begin(115200); // 115200 ou 9600
+    
+    // Décommenter si le programme a absolument besoin du serial.
+    //while(!Serial);
 }
 
-// *************************************************************************************************
-//  Auteur :  
-//  Notes  : Aucune
 /**
-* @brief Ceci est la description de la fonction
-*
-* @param ceciEstLeNomDeLaVariableEnParametre 
-*
-* @return int 
+ * @brief Boucle du programme.
+ * @author Mathieu Durand
 */
-int prototypeFonction(int ceciEstLeNomDeLaVariableEnParametre)
-// *************************************************************************************************
+void loop()
 {
-  int ceciEstLeNomDeLaVariableARetourner = 0;
-
-  return ceciEstLeNomDeLaVariableARetourner;
+    
 }
