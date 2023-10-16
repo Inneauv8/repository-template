@@ -2,13 +2,13 @@
 name: Demande de fonctionnalité
 about: Proposez une tâche pour ce projet
 title: "[FEATURE]"
-labels: enhancement
+labels: bug, enhancement
 assignees: ''
 
 ---
 
 **Votre demande de fonctionnalité est-elle liée à un problème ? Veuillez le décrire.**
-Une description claire et concise du problème. Par exemple : "Je suis toujours frustré lorsque..."
+Une description claire et concise du problème.
 
 **Décrivez la solution que vous aimeriez**
 Une description claire et concise de ce que vous souhaitez voir se réaliser.
