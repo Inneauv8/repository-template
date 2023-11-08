@@ -11,6 +11,6 @@
     ],
     "version": "1.0.0",
     "dependencies": {
-      "LibRobUS": "https://github.com/Inneauv8/RobusMovement",
+      "LibRobUS": "https://github.com/UdeS-GRO/LibRobUS",
     }
   }
